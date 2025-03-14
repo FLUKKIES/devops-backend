@@ -47,6 +47,7 @@ ENV ZONEINFO=/zoneinfo.zip
 ENV PORT=8080
 
 # Expose the port (for documentation, Cloud Run ignores it)
+
 EXPOSE $PORT
 
 # Start the Go application
